@@ -53,6 +53,18 @@ a:link {
   text-decoration: none;
 }
 
+a:link:visited {
+  font-style: italic;
+}
+
+a:link:hover {
+  text-decoration: underline;
+}
+
+a:link:active {
+  background-color: var(--color-light-grey);
+}
+
 .visually-hidden {
   display: none;
 }
