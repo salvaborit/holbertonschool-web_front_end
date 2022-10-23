@@ -201,6 +201,10 @@ a:active {
   color: var(--text-color);
 }
 
+.social-link {
+  display: block;
+}
+
 .social-link > svg {
   color: var(--text-color);
 }
